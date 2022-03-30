@@ -3,23 +3,17 @@
     bottom: 0;
     background-color: #0e091b;;
     color: #fafafa;
-    font-family: "IBM Plex Sans";
-     
-    
-}
-.footer div {
-    font-weight: 300;
-    font-size: 1rem;
-    max-width: 1140px;
-    margin: 0 auto;
-    
-    
-}
-.mat-toolbar-single-row {
-    justify-content: flex-end;
-    
+    font-family: "IBM Plex Sans";    
 }
 
-.grid-layout {
+.footer .grid-layout{
+    display:flex;
+    width: 100%;
     justify-content: flex-end;
+    /* flex-direction: row-reverse;     */
+}
+.footer div span {
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 25px;   
 }

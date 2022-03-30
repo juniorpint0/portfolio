@@ -6,15 +6,10 @@
     background-color: #0e091b;;
     color: #fafafa;
     font-family: "IBM Plex Sans";
-}
-.mat-toolbar-single-row {
     display: inline;
 }
 
-.grid-layout {
-    max-width: 1140px;
-    margin: 0 auto;    
-}
+
 h2 { 
     font-size: 1.8rem;
 }
@@ -25,7 +20,7 @@ h2 {
     align-items: center;      
     -webkit-box-align: center;
     flex-wrap: wrap;
-    height: 8vh;
+    /* height: 8vh; */
     padding: 0px 8px;
     
 }
@@ -61,7 +56,7 @@ h2 {
 .mobile-menu div {
   width: 32px;
   height: 1px;
-  background-color: red;
+  background-color: #fafafa;;
   margin: 8px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -70,20 +65,10 @@ h2 {
     li {
         margin-left: 0px;
     }
+    .nav {
+      top: 200px;
+    }
     .nav-list {
-    text-align: center;
-    position: absolute;
-    top: 8vh;
-    right: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 999;
-    background-color: #110e1b;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding-top: 96px;
     visibility: hidden;
   }
   header .grid-layout nav .nav-list li {

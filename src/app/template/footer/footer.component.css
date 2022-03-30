@@ -1,0 +1,25 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #0e091b;;
+    color: #fafafa;
+    font-family: "IBM Plex Sans";
+     
+    
+}
+.footer div {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 1140px;
+    margin: 0 auto;
+    
+    
+}
+.mat-toolbar-single-row {
+    justify-content: flex-end;
+    
+}
+
+.grid-layout {
+    justify-content: flex-end;
+}

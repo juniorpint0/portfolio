@@ -1,0 +1,58 @@
+.grid-layout {
+    width: 100%;
+    height: 100%;
+
+}
+#skills {
+    
+    display:flex;
+    /* align-items:center;
+    align-content: center;
+    justify-content:space-between; */
+    
+    margin: 24px 0px;
+}
+#skills article{
+    background-color: #0e091b;
+    height: auto;
+    padding: 32px;
+    margin: 8px;    
+    border: 1px solid #0e091b;    
+}
+
+#skills #skills-cards {
+    display:flex;
+    /* background: white; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 20%; */
+    flex-grow: 1;
+    /* height: 130px; */
+
+}
+#skills .skills-text h2 {
+    line-height: 3.2rem;
+    color: #cccccc;
+    font-family: "DM Sans";
+    font-size: 1.8rem;
+    /* background: red; */
+}
+
+
+@media screen and (max-width: 768px) {
+    .grid-layout #skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }.grid-layout #skills-cads {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;        
+        /* flex-grow: 1; */
+    }
+    #skills article {
+        padding: 10px;
+    }
+}

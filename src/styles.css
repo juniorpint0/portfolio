@@ -1,9 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { height: 100%;position:fixed;
+width:100%;
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+background: #0e091b; color: #fafafa;
+}
 
 .grid-layout {
     max-width: 1140px;
     margin: 0 auto;    
+}
+.quebra {
+    background: #0e091b;
+    width: 100%;
+    padding: 32px;
+    /* height: 80%; */
+}
+
+.typewriter:after {
+    content: "|";
+    margin-left: 0px;
+    opacity: 1;
+    -webkit-animation: blink 1s infinite;
+    animation: blink 1s infinite;
+    color: #fafafa;
+}
+
+@-webkit-keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
 }

@@ -1,11 +1,13 @@
 .header {
-    background-color: #0e091b;;
-    color: #fafafa;
-    font-family: "IBM Plex Sans";
+  position: fixed;
+  background-color: #0e091b;;
+  color: #fafafa;
+  font-family: "IBM Plex Sans";
     
 }
 .header .grid-layout {
   width: 100%;
+  /* background: green; */
 }
 .header .grid-layout .nav {
   display: flex;
@@ -22,7 +24,7 @@
     
 }
 
-h2 { 
+.title { 
     font-size: 1.8rem;
 }
 
@@ -41,62 +43,9 @@ h2 {
     visibility: hidden;}
   } 
 
-/* .header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;  
-    background-color: #0e091b;;
-    color: #fafafa;
-    font-family: "IBM Plex Sans";
-    display: inline;
-}
 
 
-h2 { 
-    font-size: 1.8rem;
-}
-
-.nav {
-    display: flex;    
-    justify-content: space-between;
-    align-items: center;      
-    -webkit-box-align: center;
-    flex-wrap: wrap;
-    
-    padding: 0px 8px;
-    
-}
-
-.nav-list {
-    display: flex;    
-    list-style: none;
-    
-}
-.nav-list a{
-    padding: 25px;
-    
-}
-.ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
-.li .a {
-    font-size: 1.6rem;
-        
-}
-
-.mobile-menu {
-  display: none ;
-  
-}
-
+/*
 @media screen and (max-width: 992px) {
     li {
         margin-left: 0px;

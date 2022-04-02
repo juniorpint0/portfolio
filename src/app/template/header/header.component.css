@@ -38,9 +38,28 @@
   
 }
 
+
 @media screen and (max-width: 992px) {
   .nav-list {
-    visibility: hidden;}
+    display: none;
+    /* visibility: hidden; */
+    display: none;
+  }
+  .about, .projects{
+    display: none;
+  }
+    .nav{
+      /* display: flex; */
+      width: 100%;
+      /* background-color: red; */
+    }
+    .mobile-menu {
+      display: flex;
+      justify-content:flex-end;
+      /* background-color: blue; */
+      
+    
+    }
   } 
 
 a {

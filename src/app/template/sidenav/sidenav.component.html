@@ -1,0 +1,43 @@
+<!-- <div class="background">
+    <mat-sidenav-container class="sidenav-container">
+        <mat-nav-list>
+            
+        </mat-nav-list>
+        <div id="app">
+            <div class="container">
+                <mat-card class="matc">
+                    <router-outlet></router-outlet>
+                </mat-card>
+            </div>
+        </div>
+    </mat-sidenav-container>
+</div> -->
+
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidenav" mode="side" opened
+    fixedInViewport="true" fixedTopGap="64">
+    <mat-nav-list class="nav-list">
+        <a mat-list-item routerLink="/">
+            <i class="material-icons">
+                home
+            </i>
+            Quem sou
+        </a>
+        <a mat-list-item>
+            <i class="material-icons">
+                storefront
+            </i>
+            Projetos
+        </a>
+        <a mat-list-item routerLink="skills">
+            <i class="material-icons">
+                storefront
+            </i>
+            Conhecimentos
+        </a>
+    </mat-nav-list>
+    </mat-sidenav>
+    <!-- <mat-sidenav-content class="content" >
+        <router-outlet></router-outlet>
+    </mat-sidenav-content> -->
+</mat-sidenav-container>

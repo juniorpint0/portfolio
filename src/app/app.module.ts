@@ -11,6 +11,13 @@ import { FooterComponent } from './template/footer/footer.component';
 import { AboutComponent } from './page/about/about.component';
 import { SkillsComponent } from './page/skills/skills.component';
 import { NavComponent } from './template/nav/nav.component';
+import { SidenavComponent } from './template/sidenav/sidenav.component';
+import { MatButtonModule } from "@angular/material/button";
+import { MatCardModule } from "@angular/material/card";
+import { MatIconModule } from "@angular/material/icon";
+import { MatListModule } from "@angular/material/list";
+import { MatSidenavModule } from '@angular/material/sidenav';
+
 
 // import {MatSidenavModule} from 'angular/material/sidenav';
 // import {MatListModule} from 'angular/material/list'
@@ -21,15 +28,21 @@ import { NavComponent } from './template/nav/nav.component';
     FooterComponent,
     AboutComponent,
     SkillsComponent,
-    NavComponent
+    NavComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    // MatSidenavModule,
-    // MatListModule
+    MatButtonModule,
+    MatCardModule,
+    MatIconModule,
+    MatListModule,
+    MatSidenavModule
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

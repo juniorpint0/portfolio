@@ -29,7 +29,7 @@ export class SidenavComponent implements OnInit, AfterViewInit {
   shouldRun = true;
   
   ngAfterViewInit(): void {
-    throw new Error('Method not implemented.');
+    
   }
 
   ngOnInit(): void {

@@ -17,7 +17,7 @@ import { MatCardModule } from "@angular/material/card";
 import { MatIconModule } from "@angular/material/icon";
 import { MatListModule } from "@angular/material/list";
 import { MatSidenavModule } from '@angular/material/sidenav';
-
+import { MatDividerModule } from '@angular/material/divider';
 
 // import {MatSidenavModule} from 'angular/material/sidenav';
 // import {MatListModule} from 'angular/material/list'
@@ -40,7 +40,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     MatCardModule,
     MatIconModule,
     MatListModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatDividerModule
     
     
   ],

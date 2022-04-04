@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,14 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  // @Output() public toggleSidenav = new EventEmitter<any>();
+  @Output() public toggleSidenav = new EventEmitter<any>();
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  // toggle(): void {
-  //   this.toggleSidenav.emit();
-  // }
+  toggle(): void {
+    this.toggleSidenav.emit();
+  }
 }

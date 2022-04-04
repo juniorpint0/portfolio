@@ -10,3 +10,14 @@
 .sidenav i {
     padding-right: 10px;
 }
+
+.content{
+    background-color:black;
+    color: #fff;
+    width: 100%;
+}
+
+.mat-drawer-inner-container {
+    background-color: rgb(31, 31, 39);
+    color: red;
+}

@@ -43,9 +43,9 @@
   .nav-list {
     display: none;
     /* visibility: hidden; */
-    display: none;
+    /* display: none; */
   }
-  .about, .projects{
+  .about, .projects, .skills{
     display: none;
   }
     .nav{

@@ -39,6 +39,7 @@
 }
 #skills .skills-text p {
     width: 300px;
+    text-align:justify;
 }
 
 

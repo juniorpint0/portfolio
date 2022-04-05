@@ -18,19 +18,19 @@
     [mode]="mobileQuery.matches ? 'over' : 'side'" 
     [fixedInViewport]="mobileQuery.matches" >
     <mat-nav-list class="nav-list">
-        <a mat-list-item routerLink="/">
+        <a mat-list-item routerLink="/" (click)="ngAfterViewInit()">
             <i class="material-icons">
                 person
             </i>
             Quem sou
         </a>
-        <a mat-list-item>
+        <a mat-list-item (click)="ngAfterViewInit()">
             <i class="material-icons">
                 code
             </i>
             Projetos
         </a>
-        <a mat-list-item routerLink="skills">
+        <a mat-list-item routerLink="skills" (click)="ngAfterViewInit()">
             <i class="material-icons">
                 terminal
             </i>

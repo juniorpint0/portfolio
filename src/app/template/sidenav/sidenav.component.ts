@@ -24,12 +24,13 @@ export class SidenavComponent implements OnInit, AfterViewInit {
    }
    ngOnDestroy(): void {
     this.mobileQuery.removeListener(this._mobileQueryListener);
+    this.sidenav.close();
   }
 
   shouldRun = true;
   
   ngAfterViewInit(): void {
-    
+    this.sidenav.close();
   }
 
   ngOnInit(): void {
@@ -37,5 +38,6 @@ export class SidenavComponent implements OnInit, AfterViewInit {
 
   getIcon(): string {
     return !this.sidenav?.opened ? 'chevron_right' : 'chevron_left';
+    
   }
 }

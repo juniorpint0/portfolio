@@ -37,6 +37,9 @@
     font-size: 1.8rem;
     /* background: red; */
 }
+#skills .skills-text p {
+    width: 300px;
+}
 
 
 @media screen and (max-width: 768px) {

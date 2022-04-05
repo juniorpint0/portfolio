@@ -2,10 +2,10 @@
     <div id="skills">
         <article class="skills-text">
             <h2>Conhecimentos</h2>
-            <p class="description">Passe o cursor em cima das imagens</p>
+            <p class="changeDescription">{{passe}}</p>
         </article>
         <div id="skills-cards">
-            <article class="html">
+            <article class="html" (mouseover)="over('html')" (mouseout)='out()'>
                 <img
                     src="assets/image/icons/html5.svg"
                     width="60px"
@@ -14,7 +14,7 @@
                     class="skills-icons"
                     />
             </article>
-            <article class="css">
+            <article class="css" (mouseover)="over('css')" (mouseout)='out()'>
                 <img src="assets/image/icons/css3.svg"
                     width="60px"
                     height="60px"
@@ -31,7 +31,7 @@
                     class="skills-icons"
                 />
             </article> -->
-            <article class="javascript">
+            <article class="javascript" (mouseover)="over('javascript')" (mouseout)='out()'>
                 <!-- src="assets/image/icons/js.svg" -->
                 <img 
                     src="assets/image/icons/javascript.svg"                    
@@ -41,7 +41,7 @@
                     class="skills-icons"
                 />
             </article>
-            <article class="angular">
+            <article class="angular" (mouseover)="over('angular')" (mouseout)='out()'>
                 <img 
                     src="assets/image/icons/angular2.svg"
                     width="60px"

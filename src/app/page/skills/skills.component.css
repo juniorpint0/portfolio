@@ -84,11 +84,14 @@ span {
         flex-direction: column;
         align-items: center;
         width: 100%;
+        top: -25px;
+        
 
     }
 
     #skills-text {
         width: 100%;
+        /* margin-top: -70; */
     }
 
     .grid-layout #skills-cads {
@@ -96,11 +99,13 @@ span {
         flex-wrap: wrap;
         justify-content: space-evenly;
         /* flex-grow: 1; */
+        
     }
 
     #skills article {
         padding: 10px;
         margin: 1px;
+        top: -25px;
     }
 }
 .grid-layout #skills #skills-cards article:hover .skills-cards-name,
@@ -134,10 +139,10 @@ span {
     font-size: 1.05rem;
 }
 .grid-layout #skills #skills-cards article .skills-cards-name-high {
-    top: -25px;
+    top: -30px;
 }
 .grid-layout #skills #skills-cards article .skills-cards-name-low {
-    bottom: -50px;
+    bottom: -30px;
 }
 
 .grid-layout #skills #skills-cards article .aumento-hover {

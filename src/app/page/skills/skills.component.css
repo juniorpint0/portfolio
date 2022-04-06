@@ -100,5 +100,46 @@ span {
 
     #skills article {
         padding: 10px;
+        margin: 1px;
     }
+}
+.grid-layout #skills #skills-cards article:hover .skills-cards-name,
+.grid-layout #skills #skills-cards article:hover .skills-cards-name-high,
+.grid-layout #skills #skills-cards article:hover .skills-cards-name-low {
+    display: block;
+    text-align: center;
+}
+
+
+.grid-layout #skills #skills-cards article .skills-cards-name,
+.grid-layout #skills #skills-cards article .skills-cards-name-high,
+.grid-layout #skills #skills-cards article .skills-cards-name-low {
+    
+    height: auto;
+    position: absolute;
+    /* padding: 5px; */    
+    background-color: #110e1b;
+    /* width: 125px; */
+    color: #fafafa;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: none;
+    font-size: 1.05rem;
+}
+.grid-layout #skills #skills-cards article .skills-cards-name-high {
+    top: -25px;
+}
+.grid-layout #skills #skills-cards article .skills-cards-name-low {
+    bottom: -50px;
+}
+
+.grid-layout #skills #skills-cards article .aumento-hover {
+    bottom: -75px;
 }

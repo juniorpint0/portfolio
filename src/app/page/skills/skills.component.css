@@ -1,13 +1,15 @@
 #s-skills {
     padding: 96px 48px;
+    
     /* background-color: #0e091b; */
-    padding-bottom: 32px;
+    /* padding-bottom: 32px; */
     /* font-size: 62.5%; */
 }
 
+
 @media screen and (max-width: 992px) {
     #s-skills {
-        padding: 48px 16px;
+        /* padding: 48px 16px; */
     }
 }
 
@@ -51,7 +53,7 @@
     margin-bottom: 32px;
     color: #fafafa;
     font-size: 2rem;
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 
 #s-skills .grid-layout #skills #skills-text h2 span {
@@ -65,7 +67,7 @@
 }
 
 #s-skills .grid-layout #skills #skills-text p {
-    max-width: 500px;
+    max-width: 100%;
     line-height: 1.9rem;
     color: #cccccc;
     font-family: "DM Sans";
@@ -130,11 +132,11 @@
 @media screen and (max-width: 768px) {
     #s-skills .grid-layout #skills .skills-cards article {
         
-        /* margin: 20px 0px; */
+        margin: 20px 0px;
     }
     .skills-text{
         /* width: 400px; */
-        min-height: 300px;
+        min-height: 250px;
         
     }
     

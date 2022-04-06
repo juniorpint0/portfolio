@@ -1,9 +1,9 @@
 
 .grid-layout {
-    /* width: 100%;
-    height: 100%; */
-    padding: 48px 16px;
-
+    width: 100%;
+    height: 100%;
+    /* padding: 48px 16px; */
+    
 }
 
 #skills {
@@ -48,7 +48,7 @@
     transition: 1s all ease;
 }
 .grid-layout #skills #skills-cards article:hover {
-    border: 1px solid #6610f2;
+    border: 1px solid #3d4cee;
 }
 
 #skills #skills-text h2 {
@@ -57,11 +57,13 @@
     font-family: "DM Sans";
     font-size: 1.8rem;
     /* background: red; */
+    padding: 0px 16px;
 }
 
 #skills #skills-text p {
     width: 85%;
     text-align: justify;
+    padding: 0px 16px;
 }
 
 #skills #skills-text {

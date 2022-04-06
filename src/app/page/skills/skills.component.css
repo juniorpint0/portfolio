@@ -135,7 +135,7 @@
         margin: 20px 0px;
     }
     .skills-text{
-        /* width: 400px; */
+        width: 400px;
         min-height: 250px;
         
     }
@@ -145,17 +145,17 @@
 #s-skills .grid-layout #skills #skills-cards article .skills-cards-name,
 #s-skills .grid-layout #skills #skills-cards article .skills-cards-name-high,
 #s-skills .grid-layout #skills #skills-cards article .skills-cards-name-low {
-    left: 50%;
+    /* left: 50%; */
     height: auto;
     position: absolute;
     padding: 5px;
-    -webkit-transform: translate(-50%, 0%);
-    transform: translate(-50%, 0%);
+    /* -webkit-transform: translate(-50%, 0%); */
+    /* transform: translate(-50%, 0%); */
     background-color: #110e1b;
     width: 125px;
     color: #fafafa;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -183,6 +183,6 @@
     /* width: 60px; */
 }
 article {
-        width: 500px;
+        /* width: 500px; */
         text-align: justify;
         }

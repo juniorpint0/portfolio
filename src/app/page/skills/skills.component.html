@@ -1,11 +1,13 @@
+<section id="s-skills">
 <div class="grid-layout">
     <div id="skills">
-        <article class="skills-text">
-            <h2>Conhecimentos</h2>
-            <p class="changeDescription">{{passe}}</p>
+        <article id="skills-text">
+            <h2 class="delaySmallReveal">Conhecimentos</h2>
+            <p class="delayMediumReveal changeDescription">{{passe}}</p>
         </article>
         <div id="skills-cards">
-            <article class="html" (mouseover)="over('html')" (mouseout)='out()'>
+            <article class="html intervalCardReveal" (mouseover)="over('html')" (mouseout)='out()'>
+                <span class="skills-cards-name-high">HTML</span>
                 <img
                     src="assets/image/icons/html5.svg"
                     width="60px"
@@ -14,7 +16,8 @@
                     class="skills-icons"
                     />
             </article>
-            <article class="css" (mouseover)="over('css')" (mouseout)='out()'>
+            <article class="css intervalCardReveal" (mouseover)="over('css')" (mouseout)='out()'>
+                <span class="skills-cards-name-high">CSS</span>
                 <img src="assets/image/icons/css3.svg"
                     width="60px"
                     height="60px"
@@ -31,7 +34,8 @@
                     class="skills-icons"
                 />
             </article> -->
-            <article class="javascript" (mouseover)="over('javascript')" (mouseout)='out()'>
+            <article class="js intervalCardReveal" (mouseover)="over('javascript')" (mouseout)='out()'>
+                <span class="skills-cards-name-high">Javascript</span>
                 <!-- src="assets/image/icons/js.svg" -->
                 <img 
                     src="assets/image/icons/javascript.svg"                    
@@ -42,6 +46,7 @@
                 />
             </article>
             <article class="angular" (mouseover)="over('angular')" (mouseout)='out()'>
+                <span class="skills-cards-name-high">Angular</span>
                 <img 
                     src="assets/image/icons/angular2.svg"
                     width="60px"
@@ -51,6 +56,7 @@
                 />
             </article>
             <article class="material" (mouseover)="over('material')" (mouseout)='out()'>
+                <span class="skills-cards-name-low">Material</span>
                 <img 
                     src="assets/image/icons/material.svg"
                     width="60px"
@@ -59,7 +65,7 @@
                     class="skills-icons"
                 />
             </article>
-            <article class="bootstrap" (mouseover)="over('bootstrap')" (mouseout)='out()'>
+            <!-- <article class="bootstrap" (mouseover)="over('bootstrap')" (mouseout)='out()'>
                 <img 
                     src="assets/image/icons/bootstrap.svg"
                     width="60px"
@@ -67,8 +73,9 @@
                     alt="ícone do BootStrap"
                     class="skills-icons"
                 />
-            </article>
+            </article> -->
             <article class="git" (mouseover)="over('git')" (mouseout)='out()'>
+                <span class="skills-cards-name-low">Git/Github</span>
                 <!-- src="assets/image/icons/github.svg"
                 src="assets/image/icons/github2.svg" -->
                 <img 
@@ -80,6 +87,7 @@
                 />
             </article>
             <article class="typescript" (mouseover)="over('typescript')" (mouseout)='out()'>
+                <span class="skills-cards-name-low">TypeScript</span>
                 <img 
                     src="assets/image/icons/typescript.svg"
                     width="60px"
@@ -88,7 +96,7 @@
                     class="skills-icons"
                 />
             </article>            
-            <article class="nodejs" (mouseover)="over('nodejs')" (mouseout)='out()'>
+            <!-- <article class="nodejs" (mouseover)="over('nodejs')" (mouseout)='out()'>
                 <img 
                     src="assets/image/icons/nodejs.svg"
                     width="60px"
@@ -96,8 +104,8 @@
                     alt="ícone do NodeJS"
                     class="skills-icons"
                 />
-            </article>
-            <article class="docker" (mouseover)="over('docker')" (mouseout)='out()'>
+            </article> -->
+            <!-- <article class="docker" (mouseover)="over('docker')" (mouseout)='out()'>
                 <img 
                     src="assets/image/icons/docker3.svg"
                     width="60px"
@@ -105,8 +113,9 @@
                     alt="ícone do Docker"
                     class="skills-icons"
                 />
-            </article>           
+            </article>            -->
             <article class="vscode" (mouseover)="over('vscode')" (mouseout)='out()'>
+                <span class="skills-cards-name-low">VsCode</span>
                 <img 
                     src="assets/image/icons/vs.svg"
                     width="60px"
@@ -119,3 +128,4 @@
         </div>
     </div>
 </div>
+</section>

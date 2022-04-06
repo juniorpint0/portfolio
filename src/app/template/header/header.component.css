@@ -1,27 +1,25 @@
 .header {
   position: fixed;
   background-color: #0e091b;;
-  color: #fafafa;
+  color: #cccccc;
   font-family: "IBM Plex Sans";
-    
 }
+
 .header .grid-layout {
   width: 100%;
-  /* background: green; */
 }
+
 .header .grid-layout .nav {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  /* background: purple; */
-  
+  cursor: pointer;
 }
+
 .header .grid-layout .nav .nav-list {
     display: flex;    
     list-style: none;
-    /* background: red; */
-    
 }
 
 .title { 
@@ -33,60 +31,50 @@
     font-size: 1.4rem;
     font-weight: 300;
 }
+
 .mobile-menu {
   display: none ;
   
 }
 
-
 @media screen and (max-width: 992px) {
   .nav-list {
     display: none;
-    /* visibility: hidden; */
-    /* display: none; */
   }
   .about, .projects, .skills{
     display: none;
   }
     .nav{
-      /* display: flex; */
       width: 100%;
-      /* background-color: red; */
     }
     .mobile-menu {
       display: flex;
       justify-content:flex-end;
-      /* background-color: blue; */
-      
-    
     }
   } 
 
 a {
   text-decoration: none;
-  color: #fafafa;
+  color: #cccccc;
 }
 
-/*
-@media screen and (max-width: 992px) {
-    li {
-        margin-left: 0px;
-    }
-    .nav {
-      top: 200px;
-    }
-    .nav-list {
-    visibility: hidden;
-  }
-  header .grid-layout nav .nav-list li {
-    opacity: 0;
-    margin-bottom: 48px;
-  }
-  header .grid-layout nav .nav-list li a {
-    font-size: 2.4rem;
-  }
-  .mobile-menu {
-    display: block;
-    
-  }
-} */
+a:hover {  
+  color: #fafafa;
+}
+.mobile-menu div {
+  width: 32px;
+  height: 1px;
+  background-color: #fafafa;
+  margin: 8px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.nav-list.active {
+  visibility: initial;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+.title {
+  color: #fafafa;
+}

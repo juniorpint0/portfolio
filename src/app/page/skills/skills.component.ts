@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 
-  passe = 'Passe o cursor em cima das imagens'
+  passe = 'Passe o cursor em cima dos ícones para mais informações.'
 
   description = [
     {
@@ -73,6 +73,6 @@ export class SkillsComponent implements OnInit {
   }
   
   out(){
-    this.passe = 'Passe o cursor em cima das imagens'
+    this.passe = 'Passe o cursor em cima dos ícones para mais informações.'
   }
 }

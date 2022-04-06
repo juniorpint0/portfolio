@@ -2,7 +2,7 @@
 
 html, body  { 
     height: 100%;
-    position:fixed;
+    /* position:fixed; */
     width:100%;
 /* font-size: 62.5%; */
 }

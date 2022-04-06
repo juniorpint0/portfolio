@@ -1,4 +1,8 @@
+.grid-layout {
+    width: 100%;
+    height: 100%;
 
+}
 
 .grid-layout #skills {
     display: -webkit-box;
@@ -10,28 +14,31 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    
+    flex-wrap:nowrap;
     height: auto;
     padding: 8px;
+    width: 100%;
+    
 }
 
-.grid-layout #skills div,
+/* .grid-layout #skills div,
 .grid-layout #skills article {
     width: 50%;
-}
+} */
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
 
     .grid-layout #skills div,
     .grid-layout #skills article {
         width: 100%;
     }
-}
+} */
 
 .grid-layout #skills #skills-text {
     min-height: 200px;
     text-align:justify;
+    width:80%;
     
 }
 
@@ -40,6 +47,7 @@
     color: #fafafa;
     font-size: 1.6rem;
     font-weight: 500;
+    
 }
 
 .grid-layout #skills #skills-text h2 span {
@@ -58,6 +66,7 @@
     color: #cccccc;
     font-family: "DM Sans";
     font-size: 1.1rem;
+    /* width: 100%; */
 }
 
 .grid-layout #skills #skills-cards {
@@ -66,7 +75,7 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    /* gap: 24px; */
+    gap: 24px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -118,6 +127,24 @@
         /* width: 40%; */
         /* margin: 20px 0px; */
     }
+    .grid-layout #skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    
+    }
+    
+    #skills-text {
+        width: 100%;
+    }
+    
+    .grid-layout #skills-cads {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        /* flex-grow: 1; */
+    }
 }
 
 .grid-layout #skills #skills-cards article .skills-cards-name,
@@ -130,7 +157,7 @@
     -webkit-transform: translate(-50%, 0%);
     transform: translate(-50%, 0%);
     background-color: #110e1b;
-    /* width: 90px; */
+    width: 120px;
     color: #fafafa;
     display: -webkit-box;
     display: -ms-flexbox;

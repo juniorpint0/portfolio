@@ -30,7 +30,7 @@
 }
 
 .grid-layout #skills #skills-text {
-    min-height: 250px;
+    min-height: 200px;
     text-align:justify;
     
 }
@@ -94,7 +94,7 @@
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    height: 90px;
+    height: 120px;
     background-color: #110e1b;
     position: relative;
     border: 1px solid #0e091b;

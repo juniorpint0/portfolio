@@ -30,6 +30,7 @@
     /* width: 20%; */
     flex-grow: 1;
     /* height: 130px; */
+    /* width: 20%; */
 
 }
 
@@ -42,13 +43,15 @@
 }
 
 #skills #skills-text p {
-    /* width: 300px; */
+    width: 85%;
     text-align: justify;
 }
 
 #skills #skills-text {
-    min-height: 200px;
+    min-height: 250px;
+    width: 600px;
 }
+
 
 
 span { display:none; }
@@ -62,7 +65,7 @@ span { display:none; }
 
     }
     #skills-text{
-        width: 50%;
+        width: 100%;
     }
 
     .grid-layout #skills-cads {
